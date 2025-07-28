@@ -3,23 +3,11 @@
 ## Functions
 Add Item Function
 
-Dynamically adds a new row (item) to the invoice input form.
-
-Each row includes inputs for Item Name, Quantity, and Price.
-
 Delete Item Function
 
-Allows the user to remove an individual item from the invoice using a delete/trash button.
-
-Live Subtotal Calculation
-
-Calculates the subtotal in real-time as the user enters quantity and price for each item.
+Subtotal Calculation
 
 Discount Calculation
-
-Accepts a discount rate (%) and automatically calculates the discounted amount.
-
-Subtracts the discount from the subtotal.
 
 Tax Calculation
 
@@ -29,10 +17,6 @@ Adds it to the total after applying the discount.
 
 Final Total Calculation
 
-Formula used:
-Total = Subtotal - Discount + Tax
-
-Updates in real time based on any changes in item list, quantity, price, tax rate, or discount rate.
 
 Invoice Preview (Right Panel)
 
@@ -47,22 +31,6 @@ Invoice Number
 Table with ITEM, QTY, PRICE, AMOUNT
 
 Subtotal, Discount, Tax, Total
-
-Auto Date Display
-
-Automatically shows the current date at the top.
-
-Invoice Number Increment
-
-Allows entry or increment of invoice number manually.
-
-Download Invoice Function (Assumed from "Download" button in screenshot)
-
-Converts the invoice preview into a PDF or downloadable format.
-
-Navigation / Multi-Invoice Support (Assumed from "Next" button)
-
-Possibly prepares the next invoice entry form with a new invoice number.
 
 
 ## Screenshots
